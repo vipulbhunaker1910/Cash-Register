@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
     <title>Cash Register</title>
 </head>
 <body>
-    <div class="container">
+    
+    <div class="header">
     <h1>Cash Register APP</h1>
     <p>Enter the bill amount and enter the cash given and check the what are the notes you should give to the customer</p>
+    </div>
+    <div class="container">
     <label for="bill-amount">Bill Amount</label>
     <input id="bill-amount" type="number">
+    <br>
     <label for="cash-given">Cash Given</label>
     <input id="cash-given" type="number">
+    <br><br>
     <button class="check-btn">Check</button>
-    <table class="cash-return">
+    <br><br>
+
+    <table class="cash-return" border="1">
         <tr>
             <th>Number of notes</th>
             <td class="cash-need-toreturn"></td>
@@ -43,7 +51,7 @@
             <td>1</td>
         </tr>
     </table>
-    </div>
+</div>
     <script type="text/javascript" src="change.js"></script>
 </body>
 </html>
