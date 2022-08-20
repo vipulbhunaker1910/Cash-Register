@@ -35,3 +35,21 @@ input{
 .cash-return{
     border-collapse: collapse;
 }
+.footer{
+  background-color: #2436bf;
+  color: white;
+  padding: 2rem 2.5rem;
+  border-bottom-left-radius: 1rem;
+}
+.list{
+  list-style: none;
+}
+.inline-list{
+display: inline;
+padding: 0rem 2.5 rem;
+}
+.inline-links{
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
